@@ -19,9 +19,7 @@ provide the access key and secret
 
 ## Initialize Terraform**
 
-5. Run Terraform Init
-
-6. add provider details into the config file
+Create a directory for your Terraform project and create a Terraform configuration file (usually named main.tf) in that directory. In this file, you define the AWS provider and resources you want to create. Here's a basic example:
 
 https://www.terraform.io/
 https://registry.terraform.io/browse/providers
