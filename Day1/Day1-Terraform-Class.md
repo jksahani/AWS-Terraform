@@ -53,4 +53,4 @@ to check the state config we can run the below command
 
 Terraform Target 
 
-\terraform.exe destroy -target 'aws_s3_bucket.storage'
+\terraform.exe destroy/plan/apply -target 'aws_s3_bucket.storage'
