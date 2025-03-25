@@ -3,7 +3,7 @@ Terraform Module
 
 
 Terraform Backend---
-
+![alt text](image-1.png)
 Create S3 bucket 
 
 Update the terraform config with Bakend details
@@ -17,3 +17,7 @@ create a dynamo db
 
 
 Terraform Module ----
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
