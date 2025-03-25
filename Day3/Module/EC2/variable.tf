@@ -1,0 +1,7 @@
+variable "instanceid" {
+  
+}
+
+variable "instancesize" {
+  
+}
