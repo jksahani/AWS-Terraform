@@ -1,3 +1,4 @@
+# Terraform Commands 
 Terraform - plan/validate/apply/destroy
 Terraform - provider
 Terraform - state commands 
@@ -7,7 +8,6 @@ terraform - target
 Terraform - local
 Terraform - Module
 Terraform - backend
-
 
 Terraform Data
 
@@ -25,7 +25,7 @@ resource "aws_subnet" "subnet1" {
 
 
 
-----------------Module Strucure---------------
+# Module Strucure
 
 ----------DEV -------
 provider.tf (Provider and Backend details)
@@ -55,8 +55,7 @@ EC2 --EC2 -- 200Lines
 EKS
 
 
---------------------------------------------------------------------------------
-------------Terraform Workspace 
+# Terraform Workspace 
 
 Dev/UAT/Prod ----------
 
