@@ -18,8 +18,11 @@ resource "aws_db_instance" "rds-mysql" {
 
 # 3. Use AWS authentication in TF Code 
 
+```terraform
 provider "aws" {
   region     = var.region
   access_key = var.access_key
   secret_key = var.secret_key
 }
+```
+
