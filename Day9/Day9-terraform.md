@@ -3,6 +3,7 @@
 # 2. Create RDS mysql DB through Terraform
 
 
+```terraform
 resource "aws_db_instance" "rds-mysql" {
   engine               = "mysql"
   identifier           = "database-2"
@@ -15,6 +16,7 @@ resource "aws_db_instance" "rds-mysql" {
   skip_final_snapshot  = true
   publicly_accessible =  true
 }
+```
 
 # 3. Use AWS authentication in TF Code 
 
