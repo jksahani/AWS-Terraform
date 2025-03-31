@@ -1,4 +1,4 @@
-## Download Terraform and AWS Cli**
+# Download Terraform and AWS Cli**
 
 1.Download Terraform Setup.
 
@@ -7,7 +7,7 @@
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://awscli.amazonaws.com/AWSCLIV2.msi
 
-## Login AWS CLI **
+# Login AWS CLI **
 4. Authenticate AWS ClI
 
 access key -
@@ -17,7 +17,7 @@ run this on CMD/Powershell   - aws configure
 
 provide the access key and secret 
 
-## Initialize Terraform**
+# Initialize Terraform**
 
 Create a directory for your Terraform project and create a Terraform configuration file (usually named main.tf) in that directory. In this file, you define the AWS provider and resources you want to create. Here's a basic example:
 
@@ -51,6 +51,6 @@ init/apply/plan/destroy
 to check the state config we can run the below command
 .\terraform.exe state list
 
-Terraform Target 
+# Terraform Target 
 
 \terraform.exe destroy/plan/apply -target 'aws_s3_bucket.storage'
